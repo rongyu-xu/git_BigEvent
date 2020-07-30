@@ -1,0 +1,55 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.logo {
+    margin-top: 10px;
+}
+.loginAndregadd {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    height: 310px;
+    width: 400px;
+    background: url(/assets/images/timg.gif) no-repeat center;
+    background-size: cover;
+}
+.login_logo {
+    background: url(/assets/images/login_title.png) no-repeat center center;
+    /* width: 170px; */
+    height: 60px;
+
+}
+.reg_box {
+    display: none;
+}
+.layui-form {
+    padding: 0 30px;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.links a {
+    font-size: 12px;
+    columns: #cccccc;
+}
+.layui-input {
+    border-radius: 20px;
+    border-color: aqua;
+    padding: 0 35px;
+    box-sizing: border-box;
+}
+.layui-form-item {
+    position: relative;
+}
+.layui-form-item i {
+    position: absolute;
+    left: 12px;
+    top: 9px;
+}
